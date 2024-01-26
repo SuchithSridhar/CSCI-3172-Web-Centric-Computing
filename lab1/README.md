@@ -2,8 +2,8 @@
 
 * *Date Created*: 25 Jan 2024
 * *Last Modification Date*: 25 Jan 2024
-* *Lab URL*: 
-* *Git URL*: 
+* *Lab URL*: https://web.cs.dal.ca/~khajjayam/csci3172/lab1/
+* *Git URL*: https://git.cs.dal.ca/khajjayam/csci-3172/-/tree/main/lab1
 
 ## Authors
 
