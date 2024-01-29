@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>L5V1 Example</title>
+	</head>
+	<body>
+		<p>
+			All the output of the calculate function is in the JavaScript console.
+		</p>
+
+		<script>
+
+			function calculate(a, b, op) {
+				switch (op) {
+					case 'add':
+						return a + b;
+					case 'subtract':
+						return a - b;
+					case 'multiply':
+						return a * b;
+					case 'divide':
+						if (b === 0) {
+							throw new Error("Cannot divide by zero");
+						}
+						return a / b;
+					default:
+						throw new Error("Invalid operation");
+				}
+			}
+
+			console.log(calcuate(10, 5, 'add'));
+			console.log(calcuate(10, 5, 'subtract'));
+			console.log(calcuate(10, 5, 'multiply'));
+			console.log(calcuate(10, 5, 'divide'));
+
+		</script>	
+</body>
+</html>
