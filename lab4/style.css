@@ -1,0 +1,11 @@
+.bg-red { background-color: #ff9999; }
+.bg-green { background-color: #99ff99; }
+.bg-blue { background-color: #9999ff; }
+.bg-yellow { background-color: #ffff99; }
+.bg-pink { background-color: #ff99ff; }
+.bg-orange { background-color: #ffcc99; }
+.bg-purple { background-color: #cc99ff; }
+
+section {
+    padding: 1em;
+}
