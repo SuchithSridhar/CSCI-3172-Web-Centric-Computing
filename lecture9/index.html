@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lecture 9</title>
+		<meta name="description" content="Title of Site">
+		<meta name="author" content="Author Name">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+	</head>
+
+	<body>
+		<div class="page">
+			<section id="description">
+				<h1>L8 - Activity</h1>
+				<p>Write the necessary JavaScript functions to validate the <em>'Registration'</em> form's input controls using <strong>Regular Expressions</strong> to match the requirements shown on this form.</p>
+			</section>
+			<div class="content">
+				<form class="registration" id="register">
+					<h3>Registration Form</h3>
+					<label for="firstName">First Name</label>
+					<span class="format">* Letters only (non-case-sensitive)</span>
+					<br>
+					<input type="text" name="firstName" id="firstName" tabindex="1">
+					<span id="error-firstName" class='error-message'></span> <br>
+					<label for="lastName">Last Name</label>
+					<span class="format">* Letters only (non-case-sensitive)</span>
+					<br>
+					<input type="text" name="lastName" id="lastName" tabindex="2">
+					<span id="error-lastName" class='error-message'></span> <br>
+					<label for="email">Email</label>
+					<span class="format">* Must follow the traditional email format</span>
+					<br>
+					<input type="email" name="email" id="email" tabindex="3">
+					<span id="error-email" class='error-message'></span> <br>
+					<label for="password">Password</label>
+					<span class="format">* At least 8 characters, include at least one number, one uppercase letter, one lowercase letter, and one special character.</span>
+					<br>
+					<input type="password" name="password" id="password" tabindex="4">
+					<span id="error-password" class='error-message'></span>
+					<br><br>
+					<button type="submit" tabindex="5">Submit</button>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<p>&copy;Copyright G.Mosquera</p>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>

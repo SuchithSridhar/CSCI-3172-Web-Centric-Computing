@@ -1,0 +1,42 @@
+# Test Cases
+
+## First Name
+Maria
+maria
+Maria Gabriella
+maria Gabriella
+Maria gabriella
+
+
+## Last Name
+Smith
+smith
+
+smith-burns	[BONUS]
+Smith-Burns	[BONUS]
+smith-Burns	[BONUS]
+O'Brien		[BONUS]
+o'Brien		[BONUS]
+O'brien		[BONUS]
+o'brien		[BONUS]
+
+
+## Email
+someone@somewhere.com
+Someone-someone@somewhere.com
+someone.someone@somewhere.com
+Someone-someone@somwewhere.com
+someone@somewhere-somewhere.com
+Someone-someone@somewhere.somewhere.com
+someone.someone@somewhere.co
+Someone-someone@somwewhere.info
+someone.someone@somewhere-somewhere.co
+someone.someone@somewhere-somewhere.info
+Someone-someone@somwewhere.somewhere.co
+Someone-someone@somwewhere.somewhere.info
+
+## Password
+aB@3bc_e
+aB@3bc_e!
+aB@3bc_!
+2aB#n!3ha
