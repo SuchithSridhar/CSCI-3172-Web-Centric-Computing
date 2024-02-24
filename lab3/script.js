@@ -41,6 +41,11 @@ function onFormSubmit(event) {
      * 3. Perform a call to a back-end service to store the data in a database.
      * This can be either an entire back-end server or just a database like
      * firebase.
+     *
+     * 4. We can append to the existing HTML rather than replacing it. This way,
+     * we will be appending to the displayed data rather than replacing it.
+     *
+     * Ex: formData.firstname += document.getElementById('firstname').value + "<br>";
      */
 
     formData = {};
