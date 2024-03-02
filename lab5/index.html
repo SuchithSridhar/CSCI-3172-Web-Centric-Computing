@@ -12,6 +12,29 @@
     <body>
         <div class="container py-5">
             <h1>Lab 5</h1>
+
+            <form action="index.html">
+                <div class="mb-3">
+                    <label for="inputNumber" class="form-label">Enter a list of
+                    numbers (comma separated)</label>
+                    <input type="text" class="form-control" id="inputNumber" required>
+                    <button class='btn btn-lg btn-warning mt-2' id="calcBtn">Calculate</button>
+                </div>
+                <div>
+                    <p id='arrayOutput'>
+                        <strong>The array:</strong> <span></span>
+                    </p>
+                    <p id='primeOutput'>
+                        <strong>Prime Numbers:</strong> <span></span>
+                    </p>
+                    <p id='compositeOutput'>
+                        <strong>Composite Numbers:</strong> <span></span>
+                    </p>
+                    <p id='neitherOutput'>
+                        <strong>Neither:</strong> <span></span>
+                    </p>
+                </div>
+            </form>
         </div>
         <script src="script.js"></script>
         <!-- Bootstrap JS -->

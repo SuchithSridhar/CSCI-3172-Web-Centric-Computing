@@ -1,9 +1,9 @@
 # Lab 4
 
-* *Date Created*: 17 Feb 2024
-* *Last Modification Date*: 17 Feb 2024
-* *Lab URL*: https://web.cs.dal.ca/~khajjayam/csci3172/lab4/
-* *Git URL*: https://git.cs.dal.ca/khajjayam/csci-3172/-/tree/main/lab4
+* *Date Created*: 02 Mar 2024
+* *Last Modification Date*: 02 Mar 2024
+* *Lab URL*: https://web.cs.dal.ca/~khajjayam/csci3172/lab5/
+* *Git URL*: https://git.cs.dal.ca/khajjayam/csci-3172/-/tree/main/lab5
 
 ## Authors
 
@@ -28,4 +28,5 @@ No AI tools where used in the creation of this assignment.
 
 ## Acknowledgments
 
-No acknowledgements.
+I used the built in `Math` module for the `sqrt` function. This was used in the
+process of checking primes.
