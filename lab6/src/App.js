@@ -44,7 +44,7 @@ function App() {
         )}
       </div>
       <footer className="py-4 bg-blue-200 text-center">
-        <p className="text-sm text-gray-700">CSCI-3137 Web Centric Computing</p>
+        <p className="text-sm text-gray-700">CSCI-3172 Web Centric Computing</p>
         <p className="text-sm text-gray-700">Author: Suchith Sridhar Khajjayam</p>
         <p className="text-sm text-gray-700">Student ID: B00932400</p>
       </footer>
