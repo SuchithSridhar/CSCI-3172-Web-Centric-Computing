@@ -16,9 +16,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen px-4 bg-blue-100">
-      <div className="max-w-md mx-auto text-center py-10">
-        <h1 className="text-3xl font-bold mb-4">To-Do List</h1>
+    <div className="min-h-screen bg-blue-100 flex flex-col">
+      <div className="max-w-md mx-auto text-center py-10 flex-grow">
+        <h1 className="text-4xl pb-4 font-bold mb-4">CSCI 3172 Lab 6</h1>
+        <h2 className="text-3xl font-bold mb-4">To-Do List</h2>
         <form onSubmit={addTask} className="flex justify-between mb-4">
           <input
             type="text"
@@ -42,8 +43,14 @@ function App() {
           </button>
         )}
       </div>
+      <footer className="py-4 bg-blue-200 text-center">
+        <p className="text-sm text-gray-700">CSCI-3137 Web Centric Computing</p>
+        <p className="text-sm text-gray-700">Author: Suchith Sridhar Khajjayam</p>
+        <p className="text-sm text-gray-700">Student ID: B00932400</p>
+      </footer>
     </div>
   );
 }
 
 export default App;
+
