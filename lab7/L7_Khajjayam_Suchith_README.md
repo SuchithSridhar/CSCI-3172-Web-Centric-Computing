@@ -2,7 +2,7 @@
 
 * *Date Created*: 23 Mar 2024
 * *Last Modification Date*: 23 Mar 2024
-* *Lab URL*: <to be updated>
+* *Lab URL*: https://suchith-csci-3172-lab-7.netlify.app/
 * *Git URL*: https://git.cs.dal.ca/khajjayam/csci-3172/-/tree/main/lab7
 
 ## Authors
@@ -12,7 +12,7 @@
 ## Getting Started
 
 To view the webpage online just visit:
-<To be updated>.
+<https://suchith-csci-3172-lab-7.netlify.app/>.
 
 If you'd like to run the application locally then first install `npm` locally
 and then run `npm install` followed by `npm start` to run the application
